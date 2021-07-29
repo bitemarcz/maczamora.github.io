@@ -12,6 +12,7 @@
               <!-- <strong><g-link class="number" to="/">{{ $static.metadata.siteName }}</g-link></strong> -->
               <strong><b-nav-item active  class="nav__link" to="/">Home</b-nav-item></strong>
               <strong><b-nav-item active  class="nav__link" to="/about/">About US</b-nav-item></strong>
+              <strong><b-nav-item active  class="nav__link" to="/blog/">Blog</b-nav-item></strong>
               <strong><b-nav-item active  class="nav__link" to="/services/">Services</b-nav-item></strong>
               <strong><b-nav-item active  class="nav__link" to="/contact/">Contact</b-nav-item></strong>
           </b-navbar-nav>
