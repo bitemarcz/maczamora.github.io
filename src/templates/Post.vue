@@ -1,6 +1,6 @@
 <template>
 <div>
-    <header-layout></header-layout>
+<header-layout></header-layout>
     <div v-html="$page.post.content" />
 <footer-layout></footer-layout>
 </div>  
