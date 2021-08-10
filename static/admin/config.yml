@@ -16,5 +16,6 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Excerpt", name: "excerpt", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Publish Date", name: "date", widget: "date"}
       - {label: "Body", name: "body", widget: "markdown"}
