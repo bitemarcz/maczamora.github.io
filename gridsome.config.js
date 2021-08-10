@@ -22,7 +22,7 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'blog/**/*.md',
+        path: 'posts/**/*.md',
         typeName: 'Post',
         remark: {
           plugins: [
@@ -34,7 +34,8 @@ module.exports = {
     {
       use: 'gridsome-plugin-netlify-cms',
       options: {
-        publicPath: '/admin'
+        publicPath: '/admin',
+        modulePath: 'src/admin/index.js'
       }
     },
   ],
