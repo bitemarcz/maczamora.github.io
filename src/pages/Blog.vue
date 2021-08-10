@@ -26,7 +26,7 @@
       <b-row class="pb-5 pt-5">
         <!-- <h4 class="career">Career Background</h4> -->
         <b-col></b-col>
-        <b-col cols="10"></b-col>
+        <b-col cols="10">This is a test</b-col>
         <b-col></b-col>
       </b-row>
       <b-row class="pb-5 pt-5">
