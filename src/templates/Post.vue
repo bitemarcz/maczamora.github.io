@@ -1,35 +1,30 @@
 <template>
-  <Layout>
-    <article>
-      <header>
-      <h2>{{$page.post.title}}</h2>
-      <!-- <p>Published on {{$page.post.date}}</p> -->
-
-      <p><i>{{$page.post.timeToRead}}min to read</i></p>
-      </header>
-
-      <main class="content" v-html="$page.post.content"></main>
-    </article>
-  </Layout>
+<div>
+<header-layout></header-layout>
+    <h1>{{ $page.post.title }}</h1>
+    <img :src="$page.post.featuredImage" alt="blog">
+    <div v-html="$page.post.content" />
+<footer-layout></footer-layout>
+</div>  
 </template>
 
-<style>
-article > header {
-  text-align: center;
-}
-
-.content {
-  margin-top: 48px;
-}
-</style>
-
 <page-query>
-query Post ($path: String!) {
-   post: post (path: $path) {
-    id
-    title
-    timeToRead
+query Post ($path: String!) { 
+  post: post (path: $path) {
+    title 
     content
   }
 }
 </page-query>
+
+<script>
+
+export default {
+    metaInfo() {
+    
+        return {
+            title: this.$page.title
+        }
+    }
+}
+</script>

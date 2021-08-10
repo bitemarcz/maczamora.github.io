@@ -1,7 +1,6 @@
 <template>
 <body class="blog-page">
-<header-layout>
-</header-layout>
+<header-layout></header-layout>
 <div class="about">
   <b-container class="top-container">
       <b-row class="pb-5 pt-5">
@@ -11,7 +10,15 @@
       </b-row>
       <b-row class="pb-5 pt-5">
         <b-col></b-col>
-        <b-col></b-col>
+        <b-col>
+          <ul>
+            <li v-for="post in $page.post.edges" :key="post.id">
+              <g-link class="postLinks" :to="post.node.path">
+                {{post.node.title}}
+              </g-link>
+            </li>
+          </ul>
+        </b-col>
         <b-col></b-col>
       </b-row>
   </b-container>
@@ -19,10 +26,8 @@
       <b-row class="pb-5 pt-5">
         <!-- <h4 class="career">Career Background</h4> -->
         <b-col></b-col>
-        <b-col cols="10">
-          <h1 class="heading">Posts</h1>
-        </b-col>
-        <b-col><BlogPostList :posts="$page.posts.edges"/></b-col>
+        <b-col cols="10">This is a test</b-col>
+        <b-col></b-col>
       </b-row>
       <b-row class="pb-5 pt-5">
         <b-col></b-col>
@@ -90,15 +95,9 @@
 
 <script>
 
-import BlogPostList from '~/components/BlogPostList.vue';
-
 export default {
   metaInfo: {
     title: "Blog",
-  },
-
-  components: {
-    BlogPostList
   },
     data() {
       return {
@@ -109,9 +108,9 @@ export default {
 </script>
 
 <page-query>
-query {
-  posts: allPost {
-    edges {
+query  Posts{
+  post: allPost {
+    edges{
       node {
         id
         title
@@ -127,6 +126,10 @@ query {
 .about {
   background-color: #2475f0;
   color: white;
+}
+
+.postLinks {
+  color: black;
 }
 
 .jumbotron { 
