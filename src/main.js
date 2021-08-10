@@ -3,6 +3,7 @@
 
 import HeaderLayout from '~/layouts/Header.vue'
 import FooterLayout from '~/layouts/Footer.vue'
+import BlogLayout from '~/layouts/Blog.vue'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { config, library } from '@fortawesome/fontawesome-svg-core'
 import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons'
@@ -21,6 +22,7 @@ export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('header-layout', HeaderLayout)
   Vue.component('footer-layout', FooterLayout)
+  Vue.component('BlogLayout', BlogLayout)
   Vue.component('font-awesome', FontAwesomeIcon)
   Vue.use(BootstrapVue)
   Vue.component('b-embed', BEmbed)

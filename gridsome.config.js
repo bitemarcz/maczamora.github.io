@@ -24,17 +24,14 @@ module.exports = {
       options: {
         path: 'blog/**/*.md',
         typeName: 'Post',
-        remark: {
-          plugins: [
-            // local plugins go here!!!
-          ]
-        }
+        remark: {}
       }
     },
     {
       use: 'gridsome-plugin-netlify-cms',
       options: {
-        publicPath: '/admin'
+        publicPath: '/admin',
+        modulePath: 'src/static/admin/index.js'
       }
     },
   ],

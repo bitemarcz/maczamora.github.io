@@ -120,18 +120,6 @@ export default {
 }
 </script>
 
-<page-query>
-query Posts {
-  posts: allPost {
-    edges {
-      node {
-        title
-        path
-      }
-    }
-  }
-}
-</page-query>
 
 <style>
 
