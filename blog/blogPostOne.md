@@ -1,10 +1,9 @@
 ---
 title: Blog Post One
+thumbnail: /uploads/images-1-.jpg
 excerpt: Software Engineering
+date: 2021-08-10T18:19:56.278Z
 ---
-
-# BLog Post One
-
 Content for **blog post one** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut nunc purus. Aenean ornare tellus quis erat egestas, vitae venenatis quam lobortis. Suspendisse tristique dui et eros eleifend dignissim. Integer rhoncus lectus et lorem fringilla, quis euismod neque bibendum. Mauris quis nunc magna. In id tortor ligula. Vivamus vitae congue mauris, et porttitor diam. Mauris ut sapien et lorem iaculis porta. Fusce condimentum dolor nibh, sit amet porta velit venenatis sed.
 
 Cras eget nisl in tellus hendrerit semper id in lectus. In magna ligula, rutrum quis aliquam id, finibus mollis lectus. Ut pharetra egestas nibh. Sed at libero pretium, congue velit vitae, tincidunt quam. Praesent bibendum libero dapibus urna dictum commodo. Ut mattis commodo rhoncus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque ullamcorper lacus sit amet laoreet fringilla. Sed dapibus dapibus risus ut feugiat. Nunc ut venenatis quam. Etiam nibh augue, malesuada at metus vitae, suscipit aliquam felis. In euismod suscipit sollicitudin. Duis vel lacus mauris. Nulla et lectus erat. Nam mattis, mauris quis ullamcorper hendrerit, mauris dui ullamcorper tellus, non placerat lorem tortor a justo. Sed laoreet sapien porta erat lacinia viverra.
