@@ -9,19 +9,22 @@
     "deploy": "gh-pages -b gh-pages-default -d dist"
   },
   "dependencies": {
-    "@gridsome/source-filesystem": "^0.6.2",
-    "@gridsome/transformer-remark": "^0.6.3",
+    "assets-loader": "^0.5.2",
     "bootstrap": "^4.5.3",
     "bootstrap-vue": "^2.18.1",
     "gh-pages": "^3.1.0",
-    "gridsome": "^0.7.20",
+    "gridsome": "^0.7.23",
     "gridsome-plugin-netlify-cms": "^1.0.9",
-    "netlify-cms": "^2.10.63",
+    "netlify-cms": "^2.10.150",
     "vue": "^2.6.12"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-brands-svg-icons": "^5.14.0",
-    "@fortawesome/vue-fontawesome": "^2.0.0"
+    "@fortawesome/vue-fontawesome": "^2.0.0",
+    "@gridsome/source-filesystem": "^0.6.2",
+    "@gridsome/transformer-remark": "^0.6.4",
+    "node-sass": "^6.0.1",
+    "sass-loader": "^10.2.0"
   }
 }
