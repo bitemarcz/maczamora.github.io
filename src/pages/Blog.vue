@@ -12,11 +12,11 @@
         <b-col></b-col>
         <b-col>
           <ul>
-            <li v-for="post in $page.post.edges" :key="post.id">
+            <!-- <li v-for="post in $page.post.edges" :key="post.id">
               <g-link class="postLinks" :to="post.node.path">
                 {{post.node.title}}
               </g-link>
-            </li>
+            </li> -->
           </ul>
         </b-col>
         <b-col></b-col>
@@ -24,67 +24,10 @@
   </b-container>
 <b-container class="main-container">
       <b-row class="pb-5 pt-5">
-        <!-- <h4 class="career">Career Background</h4> -->
-        <b-col></b-col>
-        <b-col cols="10">This is a test</b-col>
-        <b-col></b-col>
-      </b-row>
-      <b-row class="pb-5 pt-5">
         <b-col></b-col>
         <b-col cols="10">
+          <PostCard class="post-card" v-for="edge in $page.post.edges" :key="edge.node.id" :post="edge.node"/>
         </b-col>
-        <b-col></b-col>
-      </b-row>
-      <b-row class="pb-5 pt-5">
-        <b-col></b-col>
-        <b-col cols="10">
-        </b-col>
-        <b-col></b-col>
-      </b-row>
-       <b-row class="pb-5 pt-5">
-        <b-col></b-col>
-        <b-col cols="10">
-        </b-col>
-        <b-col></b-col>
-      </b-row>
-       <b-row class="pb-5 pt-5">
-        <b-col></b-col>
-        <b-col cols="10">
-        </b-col>
-        <b-col></b-col> 
-      </b-row>
-      <b-row class="pb-5 pt-5">
-        <b-col></b-col>
-        <b-col cols="10">
-        </b-col>
-        <b-col></b-col> 
-      </b-row>
-       <b-row class="pb-5 pt-5">
-        <b-col></b-col>
-        <b-col cols="10">
-        </b-col>
-        <b-col></b-col>
-      </b-row>
-       <b-row class="pb-5 pt-5">
-        <b-col></b-col>
-        <b-col></b-col>
-        <b-col></b-col>
-      </b-row>
-       <b-row class="pb-5 pt-5">
-        <b-col></b-col>
-        <b-col cols="10">
-        </b-col>
-        <b-col></b-col>
-      </b-row>
-       <b-row class="pb-5 pt-5">
-        <b-col></b-col>
-        <b-col >
-        </b-col>
-        <b-col></b-col>
-      </b-row>
-      <b-row class="pt-5">
-        <b-col></b-col>
-        <b-col></b-col>
         <b-col></b-col>
       </b-row>
     </b-container>
@@ -94,10 +37,15 @@
 </template>
 
 <script>
+import PostCard from '~/components/PostCard.vue'
 
 export default {
   metaInfo: {
     title: "Blog",
+  },
+
+  components: {
+    PostCard
   },
     data() {
       return {
@@ -108,13 +56,18 @@ export default {
 </script>
 
 <page-query>
-query  Posts{
-  post: allPost {
-    edges{
+query {
+   post: allPost {
+    edges {
       node {
         id
         title
+        date (format: "D. MMMM YYYY")
+        timeToRead
+        excerpt
+        thumbnail (width: 770, height: 380, blur: 10)
         path
+        tags
       }
     }
   }
@@ -126,6 +79,10 @@ query  Posts{
 .about {
   background-color: #2475f0;
   color: white;
+}
+
+.post-card {
+  background-color: #7435F2;
 }
 
 .postLinks {

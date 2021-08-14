@@ -1,9 +1,12 @@
 ---
 title: Blog Post Two
 excerpt: Software Engineering
+date: 2021-08-10T18:17:21.687Z
+tags: ['Markdown', 'Releases']
+thumbnail: /uploads/images-1-.jpg
 ---
 
-# BLog Post One
+
 
 Content for **blog post one** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut nunc purus. Aenean ornare tellus quis erat egestas, vitae venenatis quam lobortis. Suspendisse tristique dui et eros eleifend dignissim. Integer rhoncus lectus et lorem fringilla, quis euismod neque bibendum. Mauris quis nunc magna. In id tortor ligula. Vivamus vitae congue mauris, et porttitor diam. Mauris ut sapien et lorem iaculis porta. Fusce condimentum dolor nibh, sit amet porta velit venenatis sed.
 
