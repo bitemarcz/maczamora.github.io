@@ -24,10 +24,16 @@ module.exports = {
       options: {
         path: 'blog/**/*.md',
         typeName: 'Post',
-        remark: {}
+        remark: {},
+        refs: {
+          // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
+          tags: {
+            typeName: 'Tag',
+            create: true
+          }
       }
-    },
-    {
+      },
+    
       use: 'gridsome-plugin-netlify-cms',
       options: {
         publicPath: '/admin',
