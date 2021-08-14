@@ -26,7 +26,7 @@
       <b-row class="pb-5 pt-5">
         <b-col></b-col>
         <b-col cols="10">
-          <PostCard v-for="edge in $page.post.edges" :key="edge.node.id" :post="edge.node"/>
+          <PostCard class="post-card" v-for="edge in $page.post.edges" :key="edge.node.id" :post="edge.node"/>
         </b-col>
         <b-col></b-col>
       </b-row>
@@ -79,6 +79,10 @@ query {
 .about {
   background-color: #2475f0;
   color: white;
+}
+
+.post-card {
+  background-color: #7435F2;
 }
 
 .postLinks {

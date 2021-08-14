@@ -10,11 +10,13 @@
         <b-collapse id="nav-collapse"  is-nav>
           <b-navbar-nav class="ml-auto">
               <!-- <strong><g-link class="number" to="/">{{ $static.metadata.siteName }}</g-link></strong> -->
-              <strong><b-nav-item active  class="nav__link" to="/">Home</b-nav-item></strong>
-              <strong><b-nav-item active  class="nav__link" to="/about/">About US</b-nav-item></strong>
-              <strong><b-nav-item active  class="nav__link" to="/blog/">Blog</b-nav-item></strong>
-              <strong><b-nav-item active  class="nav__link" to="/services/">Services</b-nav-item></strong>
-              <strong><b-nav-item active  class="nav__link" to="/contact/">Contact</b-nav-item></strong>
+              <b-nav pills>
+              <b-nav-item active  class="nav__link" to="/">Home</b-nav-item>
+              <b-nav-item active  class="nav__link" to="/about/">About US</b-nav-item>
+              <b-nav-item active  class="nav__link" to="/blog/">Blog</b-nav-item>
+              <b-nav-item active  class="nav__link" to="/services/">Services</b-nav-item>
+              <b-nav-item active  class="nav__link" to="/contact/">Contact</b-nav-item>
+              </b-nav>
           </b-navbar-nav>
         </b-collapse>
     </b-navbar>
@@ -52,10 +54,11 @@ body {
   display: block; 
 } */
 
-/* .nav__link {
+.nav__link {
   margin-left: 10px;
   margin-right: 10px;
-} */
+  color: #2B2129;
+}
 
 /* .number {
   position: absolute; top: 55px; right: 700px;

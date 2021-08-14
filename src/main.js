@@ -7,6 +7,7 @@ import '~/assets/style.scss'
 // Importing layouts and extra junk
 import HeaderLayout from '~/layouts/Header.vue'
 import FooterLayout from '~/layouts/Footer.vue'
+import DefaultLayout from '~/layouts/Default.vue'
 import BlogLayout from '~/layouts/Blog.vue'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { config, library } from '@fortawesome/fontawesome-svg-core'
@@ -24,6 +25,7 @@ library.add(faGithub, faTwitter)
 
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
+  Vue.component('Layout', DefaultLayout),
   Vue.component('header-layout', HeaderLayout)
   Vue.component('footer-layout', FooterLayout)
   Vue.component('BlogLayout', BlogLayout)
