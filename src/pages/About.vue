@@ -27,7 +27,7 @@
       <b-row class="pb-5 pt-5">
         <b-col></b-col>
         <b-col cols="10">
-          Counter-Comms is a Cybersecurity consulting firm built to deliver results, create value for your business, protect and defend you from digital cyber threats, and educate our partners, clients, and you about Cybersecurity. Our motto here at Counter-Comms, "No business left behind."
+          Counter-Comms is a state of the art software factory consulting firm built to deliver results, create value for your business through customer satisfaction, protect and harden your software, and educate our partners, clients, and you about software and the future of national defense. Our motto here at Counter-Comms, "No business left behind."
         </b-col>
         <b-col></b-col>
       </b-row>
@@ -41,7 +41,7 @@
        <b-row class="pb-5 pt-5">
         <b-col></b-col>
         <b-col cols="10">
-            We are building a world-class team of consultants, both new and experienced, who have a passion and education for Cybersecurity, Privacy, and Threat Intelligence. Our team consists of a single full-time Software Engineer working on Smarter-IT initiatives, automation, and building scalable, reliable, bug-free Software with a background in Cybersecurity Defense designated by the NSA and The Department of Homeland Security. Counter-Comms hopes to expand the team as our growth continues both with clients and partners. Besides the currently listed service offerings, we also can offer services in the following areas: Networking, Automation, Docker and Kubernetes, Cloud Technologies - AWS or Azure. These will be evaulated on a case-by-case basis. Contact us for more information.
+            We are building a world-class team of software experts, both new and experienced, who have a passion and education for Software, Agile, DevSecOps, Software Factory Mindset, and National Defense. Our team consists of a single full-time Software DevOps Engineer working on Smarter-IT initiatives, automation, and building scalable, reliable, bug-free Software with a background in Cybersecurity Defense designated by the NSA and The Department of Homeland Security. Counter-Comms hopes to expand the team as our growth continues both with clients and partners. Besides the currently listed service offerings, we also can offer services in the following areas: Automation, Docker and Kubernetes, Cloud Technologies - AWS or Azure, Software as a Service. These will be evaulated on a case-by-case basis. Contact us for more information.
           <form action="/contact"><input type="submit" value="Get in Contact" /></form>
         </b-col>
         <b-col></b-col>
@@ -63,7 +63,7 @@
        <b-row class="pb-5 pt-5">
         <b-col></b-col>
         <b-col cols="10">
-          The Counter-Comms logo represents the entire lifecycle of Cybersecurity. The red color represents offense, and the blue color represents defense. The white squares represent a keyboard and ethics that an ethical hacker must uphold. We like to call these sophisticated minds white-hat hackers. The gold represents the amount of money that is involved with this industry. Counter-Comms was built with the idea to have a recognized identity within the community, our clients, and our partners. We hope you enjoy learning about our brand and identity as we continue our work with you. 
+          The Counter-Comms logo represents the entire lifecycle of Cybersecurity. The red color represents offense, and the blue color represents defense. The white squares represent a keyboard and ethics that an ethical hacker must uphold. We like to call these sophisticated minds white-hat hackers. The gold represents the amount of revenue in circulation around this industry. Counter-Comms was built with the idea to have a recognized identity within the community, our clients, and our partners. We hope you enjoy learning about our brand and identity as we continue our work with you. 
         </b-col>
         <b-col></b-col>
       </b-row>
@@ -84,7 +84,7 @@
         <b-col >
           <div class="info-person-1">
             <b-card
-              title="Lead Cybersecurity Consultant"
+              title="Lead Sofware Consultant"
               sub-title="Mario Zamora"
               img-src="https://picsum.photos/600/300/?image=25"
               img-alt="Image"

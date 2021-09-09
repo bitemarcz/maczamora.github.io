@@ -38,14 +38,15 @@
 
 <script>
 import PostCard from '~/components/PostCard.vue'
-
+import PostTags from "~/components/PostTags";
 export default {
   metaInfo: {
     title: "Blog",
   },
 
   components: {
-    PostCard
+    PostCard,
+    PostTags
   },
     data() {
       return {
@@ -67,7 +68,10 @@ query {
         excerpt
         thumbnail (width: 770, height: 380, blur: 10)
         path
-        tags
+        tags{
+          id
+          path
+        }
       }
     }
   }

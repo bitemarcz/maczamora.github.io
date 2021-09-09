@@ -17,42 +17,42 @@
           <b-col>
             <div class="service">
             <b-card
-                title="DevSecOps"
+                title="SW Factory as a Service"
                 img-alt="Image"
                 img-top
                 tag="article"
                 style="max-width: 30rem;"
                 class="mb-2">
               <g-image src="~/box.svg" width="150" height="150" position="center"/>
-              <b-card-text class="info-card">Develop a framework for your team to increase technical delivery and team collaboration between Security, Operations, and Development. </b-card-text>
+              <b-card-text class="info-card">We take the work out of building and designing a tailored and customized software factory line with all the bells and whistles.</b-card-text>
             </b-card>
           </div>
           </b-col>
           <b-col >
             <div class="service">
               <b-card
-                title="Basic Cybersecurity"
+                title="Secure Software"
                 img-alt="Image"
                 img-top
                 tag="article"
                 style="max-width: 30rem;"
                 class="mb-2">
               <g-image src="~/shield-lock-fill.svg" width="150" height="150" position="center"/>
-              <b-card-text class="info-card">Let's take it back to the basics of Cybersecurity and analyze gaps or holes you have in your defense. This service includes a 1-hour educational seminar.</b-card-text>
+              <b-card-text class="info-card">Let's take it back to the basics of Cybersecurity and analyze gaps or holes you have in your software. This service includes a 1-hour educational seminar.</b-card-text>
             </b-card>
           </div>
           </b-col>
           <b-col >
             <div class="service">
             <b-card
-                title="Software Security"
+                title="DevSecOps"
                 img-alt="Image"
                 img-top
                 tag="article"
                 style="max-width: 30rem;"
                 class="mb-2">
               <g-image src="~/globe2.svg"  width="150" height="150" position="center"/>
-              <b-card-text class="info-card">We start with a threat report to determine the level of security your software requires and provide security controls and suggestions at each step of the SDLC.</b-card-text>
+              <b-card-text class="info-card">We help build a customized and manged software engineering platform based on Kubernetes (K8s) in order to  your customer satisfaction</b-card-text>
             </b-card>
           </div>
           </b-col>
