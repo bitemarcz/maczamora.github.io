@@ -3,7 +3,8 @@
     <slot>
     <b-navbar class="header" toggleable="md" >
        <b-navbar-brand href="/">
-       <img class="logo" src="https://i.ibb.co/pnqYJVk/Capshure-Sec-v1-6.png" alt="Logo">
+       <g-image class="logo" src="~/Capshure-Sec-v1.6.png" alt="Responsive Logo"/>
+       <!-- <img class="logo" src="https://i.ibb.co/pnqYJVk/Capshure-Sec-v1-6.png" alt="Logo"> -->
        </b-navbar-brand>
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
