@@ -1,9 +1,9 @@
 <template>
-  <Layout>
+  <Layout class="page-bk">
     <b-container class="main-container">
       <b-row class="pb-5 pt-5">
         <b-col></b-col>
-        <b-col cols="10">
+        <b-col cols="9">
           <div class="post-title">
             <h1 class="post-title__text">
               {{ $page.post.title }}
@@ -67,9 +67,12 @@ query Post ($id: ID!) {
     date (format: "D. MMMM YYYY")
     timeToRead
     excerpt
-    tags
     content
     thumbnail (width: 860, blur: 10)
+    tags {
+      id
+      path
+    }
   }
 }
 </page-query>
@@ -78,6 +81,8 @@ query Post ($id: ID!) {
 .post-title {
   padding: calc(var(--space) / 2) 0 calc(var(--space) / 2);
   text-align: center;
+  background-color: white;
+  color: #2B2129;
 }
 .post {
   &__header {
@@ -118,5 +123,9 @@ query Post ($id: ID!) {
 }
 .post-author {
   margin-top: calc(var(--space) / 2);
+}
+
+.main{
+    background-color: #2475f0;
 }
 </style>

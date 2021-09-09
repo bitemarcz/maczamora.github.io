@@ -7,7 +7,7 @@
 module.exports = {
   siteName: 'Counter Comms',
   siteUrl: 'https://countercomms.com',
-  siteDescription: 'Dedicated company website: Software Development and Engineering, DevOps, DevSecOps, Cyberecurity and anything and everything around Linux',
+  siteDescription: 'Dedicated company website: Software Development and Engineering, DevOps, DevSecOps, Cyberecurity, K8s, PlatformOps',
   transformers: {
     remark: {
       externalLinksTarget: '_blank',
@@ -24,7 +24,16 @@ module.exports = {
       options: {
         path: 'blog/**/*.md',
         typeName: 'Post',
-        remark: {}
+        remark: {
+          plugins: []
+        },
+        refs: {
+          tags: {
+            typeName: "Tag",
+            route: "/tag/:id",
+            create: true
+          }
+        }
       }
     },
     {
