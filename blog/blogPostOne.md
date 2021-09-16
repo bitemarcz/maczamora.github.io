@@ -1,6 +1,6 @@
 ---
 title: "Hello World "
-thumbnail: /uploads/cup-of-coffee.jpg
+thumbnail: /uploads/chris-j-davis-pt_9ux0j-x4-unsplash.jpg
 excerpt: Software Engineering
 tags:
   - cybersecurity
