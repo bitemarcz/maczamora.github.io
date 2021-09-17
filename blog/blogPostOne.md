@@ -15,18 +15,15 @@ date: 2021-09-15T18:17:21.687Z
 ---
 Hi Everyone, I would like to formally welcome all of our readers to the Counter Comms blog. This is the first blog post and more to come as we wind down the end of 2021. I sometimes find myself asking why Counter Comms was created? What are we offering in terms of value? What type of work are we looking for, and what can we help you with? This is not set and stone and can change anytime, and that's what we aim to do because disruption and change can happen at any time.
 
-* Counter Comms is not just a business, we are culture, we are thinkers, we are pioneers and we are the embodiment of the past, present, and future builders constructing the software of tomorrow. Please check out this [brief interview](https://www.youtube.com/watch?v=u2-c0NlskhA) with former Github CEO Chris Wanstrath, as he shares his opinions and excitement for software and its future.
+1. Counter Comms is not just a business, we are culture, we are thinkers, we are pioneers and we are the embodiment of the past, present, and future builders constructing the software of tomorrow. Please check out this [brief interview](https://www.youtube.com/watch?v=u2-c0NlskhA) with former Github CEO Chris Wanstrath, as he shares his opinions and excitement for software and its future.
 
 
-* We aren't just a technology company, we're a software factory with no strings attached. As a former teammate to a small software factory, all I can say is that it's no walk in the park. To create and build a software team from scratch along with a software factory takes time, patience, strategy, tactics, and communication with a desire to share feedback and new findings. That's is where Counter Comms comes into play with our managed software factories. We take the burden of you having to figure out what you need for a modern-day software factory and provide you the ecosystem to build and release to your customers.
+2. We aren't just a technology company, we're a software factory with no strings attached. As a former teammate to a small software factory, all I can say is that it's no walk in the park. To create and build a software team from scratch along with a software factory takes time, patience, strategy, tactics, and communication with a desire to share feedback and new findings. That's is where Counter Comms comes into play with our managed software factories. We take the burden of you having to figure out what you need for a modern-day software factory and provide you the ecosystem to build and release to your customers.
 
 
-* And this brings us to the last question. Counter Comms is a small business and a startup. Why do we say this? We say this because we want to start generating revenue as soon as possible through software projects. We're also developing and actively working on a scalable and repeatable business model through a custom software platform geared towards the software industry. Please read below for more information on software projects we can take on.
-
-
+3. And this brings us to the last question. Counter Comms is a small business and a startup. Why do we say this? We say this because we want to start generating revenue as soon as possible through software projects. We're also developing and actively working on a scalable and repeatable business model through a custom software platform geared towards the software industry. Please read below for more information on software projects we can take on.
 
 If you need a custom software project completed, we can evaluate these projects on a case by case basis. If you work on an Agile-based software team we can offer help in the following areas: product launches (greenfield), existing work (brownfield), Kubernetes, DevOps practices, Agile mindset, and software consulting.
-
 
 
 As a bonus for anyone reading this post, we would like to offer pro bono software work to anyone needing a project completed. We will select one lucky reader and reach out for additional information. All you have to do is submit a form through our contact page with your details. Additionally, you can leave us comments and a feedback score from 1 to 5 on this post.
