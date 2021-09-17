@@ -33,7 +33,7 @@
       </b-row>
       <b-row class="pb-4 pt-4">
         <b-col></b-col>
-        <b-col cols="10">Our Mission, provide reliable services and products while increasing awareness of the awarenress secure software through expert research to defend and protect our clients and their assets. Our motto at Counter-Comms, "No business left behind."</b-col>
+        <b-col cols="10">Our Mission, provide reliable software engineering services and products while increasing awareness of the software industry through research and development, in order to defend and protect our clients and their assets. Our motto at Counter-Comms, "No business left behind."</b-col>
         <b-col></b-col>
       </b-row>
       <b-row class="pb-4 pt-4">
