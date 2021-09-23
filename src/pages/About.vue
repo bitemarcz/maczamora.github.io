@@ -6,7 +6,7 @@
   <b-container class="top-container">
       <b-row class="pb-5 pt-5">
         <b-col></b-col>
-        <b-col cols="10"><!--<h1>Meet the Team!</h1>--><b-jumbotron header="About Our Team" lead="Meet the experts at Counter Comms"></b-jumbotron></b-col>
+        <b-col cols="10"><!--<h1>Meet the Team!</h1>--><b-jumbotron header="About Us" lead="Meet the researchers at Counter-Comms"></b-jumbotron></b-col>
         <b-col></b-col>
       </b-row>
       <b-row class="pb-5 pt-5">
@@ -27,22 +27,22 @@
       <b-row class="pb-5 pt-5">
         <b-col></b-col>
         <b-col cols="10">
-          Counter-Comms is a state of the art software factory consulting firm built to deliver results, create value for your business through customer satisfaction, protect and harden your software, and educate our partners, clients, and you about software and the future of national defense. Our motto here at Counter-Comms, "No business left behind."
+          Counter-Comms is a brand that goes beyond the conversations. We think in terms of countermeasures rather than solutions. We believe it's the ideas and creativity that will take us to our destination. 
         </b-col>
         <b-col></b-col>
       </b-row>
       <b-row class="pb-5 pt-5">
         <b-col></b-col>
         <b-col cols="10">
-            With the most recent ransomware events, black hat hackers are gaining speed and traction in supply chain attacks. They won't stop at anything to get what they want. From nation-states to script kiddies and scammers, there is no slowing down for the enemy. Even some of the most robust enterprises can't keep up with company-wide demand and protection, so they need to distribute protective mechanisms and education for their employees to protect themselves. You may ask yourself, when will it end? What more can I do? How do I protect my assets? That's where Counter-Comms comes in.
+            With the most recent ransomware events, black hat hackers are gaining speed and traction in supply chain attacks. They won't stop at anything to get what they want. From nation-states to script kiddies and scammers, there is no slowing down for the enemy. Even some of the most robust enterprises can't keep up with company-wide demand and protection, so they need to distribute protective mechanisms and education for their employees to protect themselves. You may ask yourself, when will it end? What more can I do? How do I protect my assets? That's where the Counter-Comms Blog comes in.
         </b-col>
         <b-col></b-col>
       </b-row>
        <b-row class="pb-5 pt-5">
         <b-col></b-col>
         <b-col cols="10">
-            We are building a world-class team of software experts, both new and experienced, who have a passion and education for Software, Agile, DevSecOps, Software Factory Mindset, and National Defense. Our team consists of a single full-time Software DevOps Engineer working on Smarter-IT initiatives, automation, and building scalable, reliable, bug-free Software with a background in Cybersecurity Defense designated by the NSA and The Department of Homeland Security. Counter-Comms hopes to expand the team as our growth continues both with clients and partners. Besides the currently listed service offerings, we also can offer services in the following areas: Automation, Docker and Kubernetes, Cloud Technologies - AWS or Azure, Software as a Service. These will be evaulated on a case-by-case basis. Contact us for more information.
-          <form action="/contact"><input type="submit" value="Get in Contact" /></form>
+            We are building a world-class team of researchers, both new and experienced, to share their passion and education for Software, Hacking, Privacy, DevSecOps, and National Defense. Counter-Comms hopes to expand the team as growth continues.           
+            <!-- <form action="/contact"><input type="submit" value="Get in Contact" /></form> -->
         </b-col>
         <b-col></b-col>
       </b-row>
@@ -63,7 +63,7 @@
        <b-row class="pb-5 pt-5">
         <b-col></b-col>
         <b-col cols="10">
-          The Counter-Comms logo represents the entire lifecycle of Cybersecurity. The red color represents offense, and the blue color represents defense. The white squares represent a keyboard and ethics that an ethical hacker must uphold. We like to call these sophisticated minds white-hat hackers. The gold represents the amount of revenue in circulation around this industry. Counter-Comms was built with the idea to have a recognized identity within the community, our clients, and our partners. We hope you enjoy learning about our brand and identity as we continue our work with you. 
+          The Counter-Comms logo represents the entire lifecycle of Cybersecurity. The red color represents offense, and the blue color represents defense. The white squares represent a keyboard and ethics that an ethical hacker must uphold. We like to call these sophisticated minds white-hat hackers. The gold represents the amount of revenue in circulation around this industry. The Counter-Comms logo was built with the idea to have a recognized identity within the open source community and the broader world at large.
         </b-col>
         <b-col></b-col>
       </b-row>
@@ -75,7 +75,6 @@
        <b-row class="pb-5 pt-5">
         <b-col></b-col>
         <b-col cols="10">
-          <h1 class="heading">Our Team</h1>
         </b-col>
         <b-col></b-col>
       </b-row>
@@ -83,18 +82,6 @@
         <b-col></b-col>
         <b-col >
           <div class="info-person-1">
-            <b-card
-              title="Lead Sofware Consultant"
-              sub-title="Mario Zamora"
-              img-src="https://picsum.photos/600/300/?image=25"
-              img-alt="Image"
-              img-top
-              tag="article"
-              style="max-width: 30rem;"
-              class="mb-2"
-            >
-              <b-button href="/services" variant="primary">Services</b-button>
-            </b-card>
           </div>
         </b-col>
         <b-col></b-col>
