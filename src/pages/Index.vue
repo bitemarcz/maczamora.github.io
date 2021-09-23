@@ -3,11 +3,10 @@
     <header-layout>
     </header-layout>
     <div class="jumbotron">
-      <b-jumbotron header="Counter Comms" lead="Background in Cybersecurity Defense designated by the NSA and The Department of Homeland Security">
+      <b-jumbotron header="Counter Comms" lead="We focus on the countermeasures.">
         <hr>
         <p>
-          For more information or if you would like to contact us, please submit a request from the contact page. Please feel free to explore our company and services as we hope you
-          enjoy your time here.
+          For more information or if you would like to contact us, please submit a request from the contact page. Please feel free to explore our Blog for news and information. 
         </p>
       </b-jumbotron>
     </div>
@@ -28,17 +27,17 @@
     <b-container class="main-container">
       <b-row class="pb-4 pt-4">
         <b-col></b-col>
-        <b-col cols="10">Welcome! Thank you for visiting Counter Comms. As you begin your journey with our company, we hope you find your time valuable. This company wants to go where no one else wants to, and that's why our clients choose us.</b-col>
+        <b-col cols="10">Welcome! Thank you for visiting the Counter Comms Blog. As you begin your journey with our brand, we hope you find your time valuable.</b-col>
         <b-col></b-col>
       </b-row>
       <b-row class="pb-4 pt-4">
         <b-col></b-col>
-        <b-col cols="10">Our Mission, provide reliable software engineering services and products while increasing awareness of the software industry through research and development, in order to defend and protect our clients and their assets. Our motto at Counter-Comms, "No business left behind."</b-col>
+        <b-col cols="10">Our Mission, provide engaging technology news and information while increasing the awareness of the software industry through research and development.</b-col>
         <b-col></b-col>
       </b-row>
       <b-row class="pb-4 pt-4">
         <b-col></b-col>
-        <b-col cols="10">If you would like to contact us about a service, we offer a free 1-hour virtual or in-person consultation. Due to COVID-19, a virtual face-to-face consultation is also available to determine if a service fits your need.</b-col>
+        <b-col cols="10">If you would like to contact us or open up a discussion, please submit a contact form.</b-col>
         <b-col></b-col>
       </b-row>
       <b-row class="pb-5 pt-5">
