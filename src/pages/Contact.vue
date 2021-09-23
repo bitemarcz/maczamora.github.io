@@ -6,7 +6,7 @@
      <b-container class="top-container">
       <b-row class="pb-5 pt-5">
         <b-col></b-col>
-        <b-col cols="10"><!--<h1>Meet the Team!</h1>--><b-jumbotron header="Contact US" lead="Please submit a contact form if you would like to setup a free 1 hour consult"></b-jumbotron></b-col>
+        <b-col cols="10"><!--<h1>Meet the Team!</h1>--><b-jumbotron header="Contact US" lead="Please submit a contact form for any questions"></b-jumbotron></b-col>
         <b-col></b-col>
       </b-row>
   </b-container>
