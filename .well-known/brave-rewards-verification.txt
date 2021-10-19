@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: countercomms.com
-Token: 12cd14a236a6a4f96fcfb202e81d9605ed39fc9f790ed23a3d1acef55070b71e
