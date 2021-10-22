@@ -1,5 +1,5 @@
 ---
-title: Brave, A Browser built on Privacy
+title: Brave, A browser built on Privacy
 thumbnail: /uploads/brave-lion-3x.png
 excerpt: Brave should be the standard for a more private lifestyle
 tags:
